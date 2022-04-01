@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mis Pequeños Saltamontes</string>
+    <string name="nombre">Ingrese Nombre Completo</string>
+    <string name="edad">Edad:</string>
+    <string name="telefono">Telefono:</string>
+    <string name="registro">Registro</string>
+    <string name="estadistica">Estadistica</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="mis_peque_os_saltamontes">Mis Pequeños Saltamontes</string>
+    <string name="resultados">Resultados</string>
+    <string name="estadisticas">Estadisticas</string>
+    <string name="resultado">Resultado</string>
+    <string name="calcular_promedio">Calcular Promedio</string>
+    <string name="ingrese_documento_de_identidad">Ingrese Documento de identidad</string>
+    <string name="estudiantes_procesados">estudiantes procesados</string>
+    <string name="estudiantes_que_ganan">estudiantes que ganan</string>
+    <string name="estudiantes_que_piernden">estudiantes que piernden</string>
+    <string name="estudiantes_que_recuperan">estudiantes que recuperan</string>
+</resources>

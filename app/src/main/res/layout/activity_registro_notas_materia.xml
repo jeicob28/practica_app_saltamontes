@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registry_notes_material"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Registro de Materias"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_marginVertical="20dp"
+        android:textColor="@color/black"
+        />
+
+    <GridLayout
+       android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="7">
+
+        <TextView
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="4dp"
+            android:text="Materia 1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="4dp"
+            android:text="Materia 2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="4dp"
+            android:text="Materia 3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_margin="4dp"
+            android:text="Materia 4"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_margin="4dp"
+            android:text="Materia 5"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_margin="4dp"
+            android:text="Promedio"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextMateria1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ditTextMateria2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ditTextMateria3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ditTextMateria4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ditTextMateria5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ditTextMateria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:ems="10"
+            android:inputType="number" />
+
+    </GridLayout>
+
+     <Button
+        android:id="@+id/Btn_calcular_promedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular_promedio"
+        android:textColor="@color/black"
+        android:background="@color/design_default_color_primary"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="50dp"/>
+
+    <TextView
+        android:id="@+id/Resultado_Promedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/resultado"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+</LinearLayout>
+

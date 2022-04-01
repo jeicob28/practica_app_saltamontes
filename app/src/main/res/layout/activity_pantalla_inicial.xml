@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityMaterias"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#8AB7CD">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mis_peque_os_saltamontes"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="italic|bold"
+        android:textAlignment="center"/>
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="70dp"/>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registro" />
+
+    <Button
+        android:id="@+id/Btnestadisticas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/estadistica"
+        android:layout_marginHorizontal="70dp"/>
+
+    <Button
+        android:id="@+id/BtnAyuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ayuda"
+        android:layout_marginHorizontal="70dp"/>
+
+
+</LinearLayout>
